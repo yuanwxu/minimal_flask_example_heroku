@@ -6,7 +6,7 @@ app=Flask(__name__)
 
 @app.route('/')
 def index():
-return "Up and running!"
+    return "Up and running!"
 
 
 keywords_api = get_keywords_api()
