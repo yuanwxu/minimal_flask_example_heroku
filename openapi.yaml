@@ -5,6 +5,9 @@ info:
   description: "API that accepts a text string and returns packages names in it."
   version: "1.0"
 
+servers:
+  - url: https://kaggle-keyword-processor.herokuapp.com/
+
 paths:
   /extractpackages:
     post:
