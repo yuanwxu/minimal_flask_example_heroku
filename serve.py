@@ -8,7 +8,7 @@ def get_keywords_api():
     
     # read in pickled word processor. You could also load in
     # other models as this step.
-    keyword_processor = pickle.load(open("processor.pkl", "rb"))
+    keyword_processor = pickle.load(open("word_processor.pkl", "rb"))
     
     # Function to apply our model & extract keywords from a 
     # provided bit of text
